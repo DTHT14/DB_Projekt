@@ -5,8 +5,10 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="DepartFrom">Depart from</string>
-    <string name="ArriveAt">Arrive at</string>
+    <string name="departFrom">Depart from</string>
+    <string name="arriveAt">Arrive at</string>
+    <string name="welcome">"Welcome to</string>
+    <string name="blomster">" Blomstermåla Bus"</string>
     <string name="NumberOfTravelers">Number of travelers</string>
     <string name="Date">Date</string>
     <string name="Departure">Departure</string>
