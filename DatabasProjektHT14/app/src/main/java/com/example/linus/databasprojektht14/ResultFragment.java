@@ -7,7 +7,9 @@ import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
+import org.w3c.dom.Text;
 
 
 /**
@@ -15,10 +17,21 @@ import android.view.ViewGroup;
  *
  */
 public class ResultFragment extends Fragment {
-
+    private TextView tvConfirmation;
+    private TextView tvConfirmationDate;
+    private TextView tvShowConfirmationDate;
+    private TextView tvBussID;
+    private TextView tvShowBussID;
+    private TextView tvConfirmationShowDepart;
+    private TextView tvConfirmationArrive;
+    private TextView tvConfirmationShowArrive;
+    private TextView tvConfirmationNumber;
+    private TextView tvConfirmationShowNumber;
+    private TextView tvConfirmationPrice;
+    private TextView tvConfirmationShowPrice;
 
     public ResultFragment() {
-        // Required empty public constructor
+
     }
 
 
@@ -26,7 +39,20 @@ public class ResultFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_result, container, false);
+        View view =  inflater.inflate(R.layout.fragment_search, container, false);
+
+        tvConfirmation = (TextView) view.findViewById(R.id.tvConfirmation);
+        tvConfirmationDate = (TextView) view.findViewById(R.id.tvConfirmationDate);
+        tvShowConfirmationDate = (TextView) view.findViewById(R.id.tvShowConfirmationDate);
+        tvBussID = (TextView) view.findViewById(R.id.tvBussID);
+        tvShowBussID = (TextView) view.findViewById(R.id.tvShowBussID);
+        tvConfirmationShowDepart = (TextView) view.findViewById(R.id.tvConfirmationShowDepart);
+        tvConfirmationArrive = (TextView) view.findViewById(R.id.tvConfirmationArrive);
+        tvConfirmationShowArrive = (TextView) view.findViewById(R.id.tvConfirmationShowArrive);
+        tvConfirmationNumber = (TextView) view.findViewById(R.id.tvConfirmationNumber);
+        tvConfirmationShowNumber = (TextView) view.findViewById(R.id.tvConfirmationShowNumber);
+        tvConfirmationPrice = (TextView) view.findViewById(R.id.tvConfirmationPrice);
+        tvConfirmationShowPrice = (TextView) view.findViewById(R.id.tvConfirmationShowPrice);
     }
 
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">DatabasProjektHT14</string>
+    <string name="app_name">DatabaseProjectHT14</string>
     <string name="DepartFrom">Depart from</string>
     <string name="ArriveAt">Arrive at</string>
     <string name="NumberOfTravelers">Number of travelers</string>
@@ -9,5 +9,9 @@
     <string name="Departure">Departure</string>
     <string name="ButtonSearch">Search</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Confirmation">Confirmation</string>
+    <string name="Buss_ID">BussID</string>
+    <string name="Depart">Depart</string>
+    <string name="Price">Price</string>
 
 </resources>
